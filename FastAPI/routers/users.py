@@ -21,7 +21,7 @@ async def usersjson():
             {"name": "Diego", "surname": "Matos", "url": "https://mouredev.com"},
             {"name": "Manuel", "surname": "Suarez", "url": "https://manuelsua.com"},]
 
-@router.get("/users")
+@router.get("/user")
 async def users():
     return users_list
 
